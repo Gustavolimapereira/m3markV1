@@ -17,6 +17,9 @@ const config: Config = {
         customColor: '#102129',
         customColorCircle: '#703619',
       },
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
