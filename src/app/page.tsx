@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <div className="h-screen w-screen bg-customColor">
@@ -11,13 +13,36 @@ export default function Home() {
           zIndex: 1,
         }}
       ></div>
-      <div className="absolute h-30 w-screen bg-white  z-10 mt-20 mx-10">
+      <div className="absolute h-30 w-screen  z-10 mt-14 mx-10">
         <div className="grid grid-cols-2 h-20">
-          <div className="bg-red-200">
-            <p>teste</p>
-            <img src="./Logo M3 Mark.svg" alt="" />
+          <div className="pl-14">
+            <Image
+              src="/LogoM3Mark.png"
+              width={184}
+              height={50}
+              alt="Capa do álbum do Drake"
+            />
           </div>
-          <div className="bg-yellow-200">teste 2</div>
+          <div className=" flex justify-center items-center space-x-32">
+            <a
+              href="#"
+              className="font-medium text-white dark:text-white-500 hover:underline"
+            >
+              Serviço
+            </a>
+            <a
+              href="#"
+              className="font-medium text-white dark:text-white-500 hover:underline"
+            >
+              Quem Somos
+            </a>
+            <a
+              href="#"
+              className="font-medium text-white dark:text-white-500 hover:underline"
+            >
+              Entre em Contato
+            </a>
+          </div>
         </div>
       </div>
     </div>
