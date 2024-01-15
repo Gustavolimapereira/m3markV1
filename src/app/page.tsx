@@ -8,22 +8,22 @@ export default function Home() {
         style={{
           width: '1650px',
           height: '1600px',
-          top: '-789px',
-          right: '-789px',
+          top: '-1100px',
+          right: '-1000px',
           zIndex: 1,
         }}
       ></div>
-      <div className="absolute h-30 w-screen  z-10 mt-8 mx-10 bg-slate-500">
+      <div className="absolute h-30 w-screen  z-10 mt-8 mx-10">
         <div className="grid grid-cols-2 h-20">
           <div className="pl-14 flex justify-start items-center">
             <Image
               src="/LogoM3Mark.png"
               width={184}
               height={50}
-              alt="Capa do álbum do Drake"
+              alt="logo M3 Mark"
             />
           </div>
-          <div className=" flex justify-center items-center space-x-32">
+          <div className=" flex justify-center items-center space-x-20 pr-20">
             <a
               href="#"
               className="font-medium text-white dark:text-white-500 hover:underline font-sans font-weight-600"
