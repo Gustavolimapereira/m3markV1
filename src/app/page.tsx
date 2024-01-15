@@ -26,7 +26,7 @@ export default function Home() {
           <div className=" flex justify-center items-center space-x-32">
             <a
               href="#"
-              className="font-medium text-red-200 dark:text-white-500 hover:underline font-sans font-weight-600"
+              className="font-medium text-white dark:text-white-500 hover:underline font-sans font-weight-600"
             >
               Serviço
             </a>
