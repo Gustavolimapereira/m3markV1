@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Graficos from '../components/graficos'
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
             >
               Entre em Contato
             </a>
+            <Graficos></Graficos>
           </div>
         </div>
       </div>
