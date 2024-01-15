@@ -27,19 +27,19 @@ export default function Home() {
           <div className=" flex justify-center items-center space-x-20 pr-20">
             <a
               href="#"
-              className="font-medium text-white dark:text-white-500 hover:underline font-sans font-weight-600"
+              className="font-medium text-white dark:text-white-500 hover:underline font-sans600  font-weight-600"
             >
               Serviço
             </a>
             <a
               href="#"
-              className="font-medium text-white dark:text-white-500 hover:underline"
+              className="font-medium text-white dark:text-white-500 hover:underline font-sans600  font-weight-600"
             >
               Quem Somos
             </a>
             <a
               href="#"
-              className="font-medium text-white dark:text-white-500 hover:underline"
+              className="font-medium text-white dark:text-white-500 hover:underline font-sans600  font-weight-600"
             >
               Entre em Contato
             </a>
