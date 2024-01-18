@@ -17,10 +17,17 @@ const config: Config = {
       colors: {
         customColor: '#102129',
         customColorCircle: '#703619',
+        customColorButton: '#65E4A3',
       },
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
-        roboto: ['Roboto', 'sans-serif']
+        roboto: ['Roboto', 'sans-serif'],
+      },
+      width: {
+        '1293': '1493px',
+      },
+      height: {
+        '1293': '1493px',
       },
     },
   },
