@@ -18,6 +18,7 @@ const config: Config = {
         customColor: '#102129',
         customColorCircle: '#703619',
         customColorButton: '#65E4A3',
+        customColorCard: '#3b4950',
       },
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
