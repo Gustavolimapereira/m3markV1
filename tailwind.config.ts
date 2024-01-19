@@ -24,7 +24,8 @@ const config: Config = {
         customColorDarkGreen: '#009D10',
         customColorBlue: '#0DBBFC',
         customColorWaterBlue: '#8FB6D5',
-        customColorGray: '#95ABBC'
+        customColorGray: '#95ABBC',
+        CustomColorOrange: '#FF5500'
       },
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
