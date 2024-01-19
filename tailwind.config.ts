@@ -17,8 +17,14 @@ const config: Config = {
       colors: {
         customColor: '#102129',
         customColorCircle: '#703619',
-        customColorButton: '#65E4A3',
+        customColorGreen: '#69E6A6',
         customColorCard: '#3b4950',
+        customColorRed: '#FC5B00',
+        customColorYellow: '#ECAA00',
+        customColorDarkGreen: '#009D10',
+        customColorBlue: '#0DBBFC',
+        customColorWaterBlue: '#8FB6D5',
+        customColorGray: '#95ABBC'
       },
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],

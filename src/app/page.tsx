@@ -15,7 +15,7 @@ export default function Home() {
                 alt="logo M3 Mark"
               />
             </div>
-            <div className="flex justify-center items-center space-x-40">
+            <div className="flex justify-center items-center space-x-20">
               <a className="text-white font-bold" href="">
                 Serviços
               </a>
@@ -41,9 +41,9 @@ export default function Home() {
               <div className="space-x-10">
                 <button
                   type="button"
-                  className="text-black bg-customColorButton hover:bg-green-800 
+                  className="text-black bg-customColorGreen hover:bg-green-500
                 focus:ring-4 font-bold
-                rounded-3xl py-4 px-8
+                rounded-full py-4 px-8
                   focus:outline-none "
                 >
                   Contrate agora
@@ -51,9 +51,9 @@ export default function Home() {
 
                 <button
                   type="button"
-                  className="text-white hover:bg-customColorButton border-white border
+                  className="text-white hover:bg-customColorGreen hover:text-customColor hover:border-customColorGreen border-white border
                 focus:ring-4 font-bold
-                rounded-3xl py-4 px-8
+                rounded-full py-4 px-8
                   focus:outline-none "
                 >
                   Conheça mais
@@ -101,7 +101,7 @@ export default function Home() {
                 Tudo para o melhor desempenho e captação de leads para sua
                 empresa
               </p>
-              <a href="">Saiba mais  -> </a>
+              <a href="">Saiba mais</a>
             </div>
 
             <div>
@@ -110,7 +110,7 @@ export default function Home() {
               <p>
               Elaboração de vídeos para aproximação B2C e B2B
               </p>
-              <a href="">Saiba mais  -> </a>
+              <a href="">Saiba mais</a>
             </div>
             <div>
               <div className="h-80 w-full bg-gray-500 rounded-lg"></div>
@@ -118,7 +118,7 @@ export default function Home() {
               <p>
               As melhores artes para publicidade empresarial.
               </p>
-              <a href="">Saiba mais  -> </a>
+              <a href="">Saiba mais</a>
             </div>
           </div>
         </div>
