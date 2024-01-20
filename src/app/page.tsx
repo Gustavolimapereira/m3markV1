@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Graficos from '../components/graficos'
+import PizzaGrafico from '@/components/pizzaGrafico'
 
 export default function Home() {
   return (
@@ -16,13 +17,22 @@ export default function Home() {
               />
             </div>
             <div className="flex justify-center items-center space-x-20">
-              <a className="text-white font-bold hover:text-CustomColorOrange" href="">
+              <a
+                className="text-white font-bold hover:text-CustomColorOrange"
+                href=""
+              >
                 Serviços
               </a>
-              <a className="text-white font-bold hover:text-CustomColorOrange" href="">
+              <a
+                className="text-white font-bold hover:text-CustomColorOrange"
+                href=""
+              >
                 Quem Somos
               </a>
-              <a className="text-white font-bold hover:text-CustomColorOrange" href="">
+              <a
+                className="text-white font-bold hover:text-CustomColorOrange"
+                href=""
+              >
                 Entre em Contato
               </a>
             </div>
@@ -107,21 +117,23 @@ export default function Home() {
             <div>
               <div className="h-80 w-full bg-yellow-500 rounded-lg"></div>
               <p>Produção Audiovisual</p>
-              <p>
-              Elaboração de vídeos para aproximação B2C e B2B
-              </p>
+              <p>Elaboração de vídeos para aproximação B2C e B2B</p>
               <a href="">Saiba mais</a>
             </div>
             <div>
               <div className="h-80 w-full bg-gray-500 rounded-lg"></div>
               <p>Designer Gráfico</p>
-              <p>
-              As melhores artes para publicidade empresarial.
-              </p>
+              <p>As melhores artes para publicidade empresarial.</p>
               <a href="">Saiba mais</a>
             </div>
           </div>
         </div>
+        <div
+          style={{
+            height: '300px',
+            width: '300px',
+          }}
+        ></div>
       </div>
     </>
   )
