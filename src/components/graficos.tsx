@@ -60,7 +60,7 @@ export default function Graficos() {
       </div>
       <div className="flex space-x-6">
         <div className="w-48 h-40 bg-customColorCard px-3 relative rounded-xl">
-          <div className="flex space-x-2.5 justify-start items-center py-4">
+          <div className="flex space-x-2.5 justify-start items-center py-3">
             <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
             <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
             <div className=" bg-customColorDarkGreen rounded-full h-2.5 w-2.5 hover:bg-green-500"></div>
@@ -102,29 +102,20 @@ export default function Graficos() {
           </div>
         </div>
         <div className="w-60 h-40 bg-customColorCard px-3 relative rounded-xl">
-          <div className="flex space-x-2.5 justify-start items-center py-4">
+          <div className="flex space-x-2.5 justify-start items-center py-3">
             <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
             <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
             <div className=" bg-customColorDarkGreen rounded-full h-2.5 w-2.5 hover:bg-green-500"></div>
           </div>
 
-          <div className="flex-col items-center">
-            <div className="w-32 h-32">
+          <div className="flex space-x-4 items-center">
+            <div className="w-28 h-28">
               <PizzaGrafico></PizzaGrafico>
             </div>
-            <div className="flex flex-col space-y-4 justify-start">
-              <div
-                className=" bg-customColorGray rounded-full h-2 hover:bg-gray-300"
-                style={{ width: '35%' }}
-              ></div>
-              <div
-                className=" bg-customColorGray rounded-full h-2 hover:bg-gray-300"
-                style={{ width: '35%' }}
-              ></div>
-              <div
-                className=" bg-customColorGray rounded-full h-2 hover:bg-gray-300"
-                style={{ width: '35%' }}
-              ></div>
+            <div className="space-y-4 justify-start">
+              <div className="bg-customColorGray rounded-full h-2 w-16 hover:bg-gray-300"></div>
+              <div className="bg-customColorGray rounded-full h-2 w-14 hover:bg-gray-300"></div>
+              <div className="bg-customColorGray rounded-full h-2 w-20 hover:bg-gray-300"></div>
             </div>
           </div>
         </div>
