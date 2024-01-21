@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Graficos from '../components/graficos'
-import PizzaGrafico from '@/components/pizzaGrafico'
 
 export default function Home() {
   return (
