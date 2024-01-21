@@ -11,12 +11,13 @@ function PizzaGrafico() {
         label: 'Poll',
         data: [2, 2, 2],
         backgroundColor: ['#69E6A6', '#0A2640', '#0DBBFC'],
+        borderWidth: [''],
       },
     ],
   }
 
   const options = {
-    cutout: '70%', // Define o valor desejado para a espessura do gráfico
+    cutout: '70%', // Define o valor para a espessura do gráfico
   }
 
   return <Doughnut data={data} options={options}></Doughnut>

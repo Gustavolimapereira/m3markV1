@@ -73,22 +73,6 @@ export default function Home() {
 
             <div className="grid grid-rows-2">
               <Graficos></Graficos>
-              <div className=" flex justify-center items-center space-x-5">
-                <Image
-                  className="rounded-2xl"
-                  src="/grafico1.png"
-                  width={184}
-                  height={50}
-                  alt="logo M3 Mark"
-                />
-                <Image
-                  className="rounded-2xl"
-                  src="/grafico2.png"
-                  width={250}
-                  height={250}
-                  alt="logo M3 Mark"
-                />
-              </div>
             </div>
           </div>
         </div>
