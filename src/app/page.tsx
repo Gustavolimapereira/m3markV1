@@ -93,7 +93,7 @@ export default function Home() {
                 width={240}
                 height={50}
                 alt="Imagem Gestão"
-                className="h-80 w-60 object-cover rounded-lg mb-6"
+                className="h-80 w-60 object-cover rounded-3xl mb-6"
               />
 
               <p className="text-xl mb-4">Gestão de Tráfego</p>
@@ -114,7 +114,7 @@ export default function Home() {
                 width={240}
                 height={50}
                 alt="Imagem Audiovisual"
-                className="h-80 w-60 object-cover rounded-lg mb-6"
+                className="h-80 w-60 object-cover rounded-3xl mb-6"
               />
               <p className="text-xl mb-4">Produção Audiovisual</p>
               <p className="max-w-60 text-gray-500 mb-4">
@@ -133,7 +133,7 @@ export default function Home() {
                 width={240}
                 height={50}
                 alt="Imagem Designer"
-                className="h-80 w-60 object-cover rounded-lg mb-6"
+                className="h-80 w-60 object-cover rounded-3xl mb-6"
               />
               <p className="text-xl mb-4"> Designer Gráfico</p>
               <p className="max-w-60 text-gray-500 mb-4">
