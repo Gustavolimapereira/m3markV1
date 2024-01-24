@@ -9,7 +9,7 @@ export default function Home() {
           <div className="w-full grid grid-cols-2">
             <div className="h-full flex justify-start items-center">
               <Image
-                src="/LogoM3Mark.png"
+                src="/LogoM3MarkSVG.svg"
                 width={184}
                 height={50}
                 alt="logo M3 Mark"
@@ -77,40 +77,77 @@ export default function Home() {
         </div>
       </div>
       <div className="px-32 pb-32">
-        <div className="flex justify-center items-center pt-12">
-          <p>Nossos Serviços</p>
+        <div className="flex justify-center items-center pt-20">
+          <p>Nossos serviços</p>
         </div>
-        <div className="flex justify-center items-center pt-5">
-          <h1 className="text-4xl">
+        <div className="flex justify-center items-center pt-6">
+          <h1 className="text-4xl text-center max-w-2xl font-roboto">
             Tudo o que sua empresa precisa para se destacar
           </h1>
         </div>
-        <div className="flex pt-12">
-          <div className="grid grid-cols-3 h-auto w-screen gap-28">
+        <div className="flex pt-12 justify-center">
+          <div className="grid grid-cols-3 h-auto w-screen max-w-6xl gap-28">
             <div>
-              <div className="h-80 w-full bg-red-500 rounded-lg"></div>
-              <p>Gestão de Tráfego</p>
-              <p>
+              <Image
+                src="/Gestão.svg"
+                width={240}
+                height={50}
+                alt="Imagem Gestão"
+                className="h-80 w-60 object-cover rounded-lg mb-6"
+              />
+
+              <p className="text-xl mb-4">Gestão de Tráfego</p>
+              <p className="max-w-60 text-gray-500 mb-4">
                 Tudo para o melhor desempenho e captação de leads para sua
                 empresa
               </p>
-              <a href="">Saiba mais</a>
+              <a className="font-bold" href="">
+                Saiba mais
+                <span className="ml-2">&#8594;</span>
+              </a>
+              <div className="mt-2 border-b border-black w-32"></div>
             </div>
 
             <div>
-              <div className="h-80 w-full bg-yellow-500 rounded-lg"></div>
-              <p>Produção Audiovisual</p>
-              <p>Elaboração de vídeos para aproximação B2C e B2B</p>
-              <a href="">Saiba mais</a>
+              <Image
+                src="/Audiovisual.svg"
+                width={240}
+                height={50}
+                alt="Imagem Audiovisual"
+                className="h-80 w-60 object-cover rounded-lg mb-6"
+              />
+              <p className="text-xl mb-4">Produção Audiovisual</p>
+              <p className="max-w-60 text-gray-500 mb-4">
+                Elaboração de vídeos para aproximação B2C e B2B
+              </p>
+              <a className="font-bold" href="">
+                Saiba mais
+                <span className="ml-2">&#8594;</span>
+              </a>
+              <div className="mt-2 border-b border-black w-32"></div>
             </div>
+
             <div>
-              <div className="h-80 w-full bg-gray-500 rounded-lg"></div>
-              <p>Designer Gráfico</p>
-              <p>As melhores artes para publicidade empresarial.</p>
-              <a href="">Saiba mais</a>
+              <Image
+                src="/Designer.svg"
+                width={240}
+                height={50}
+                alt="Imagem Designer"
+                className="h-80 w-60 object-cover rounded-lg mb-6"
+              />
+              <p className="text-xl mb-4"> Designer Gráfico</p>
+              <p className="max-w-60 text-gray-500 mb-4">
+                As melhores artes para publicidade empresarial.
+              </p>
+              <a className="font-bold" href="">
+                Saiba mais
+                <span className="ml-4">&#8594;</span>
+              </a>
+              <div className="mt-2 border-b border-black w-32"></div>
             </div>
           </div>
         </div>
+
         <div
           style={{
             height: '300px',
