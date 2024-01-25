@@ -9,7 +9,7 @@ export default function Home() {
           <div className="w-full grid grid-cols-2">
             <div className="h-full flex justify-start items-center">
               <Image
-                src="/LogoM3MarkSVG.svg"
+                src="/LogoM3Mark.svg"
                 width={184}
                 height={50}
                 alt="logo M3 Mark"
@@ -40,10 +40,10 @@ export default function Home() {
         <div className=" flex mt-14 ">
           <div className="grid grid-cols-2">
             <div className="h-auto space-y-10 p-16">
-              <h1 className="text-5xl font-bold tracking-tight text-white ">
+              <h1 className="text-5xl font-bold tracking-tight text-white max-w-xl">
                 Aumente a performance da sua empresa
               </h1>
-              <p className="text-white">
+              <p className="text-white max-w-xl">
                 Soluções empresariais para aumento de resultado nas redes
                 sociais e na aproximação do seu público alvo.
               </p>

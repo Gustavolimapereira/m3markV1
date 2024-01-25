@@ -2,8 +2,11 @@ import PizzaGrafico from './pizzaGrafico'
 
 export default function Graficos() {
   return (
-    <div className=" w-full flex flex-col justify-center items-center  px-20">
-      <div className="w-full h-48 bg-customColorCard px-3 relative space-y-4 rounded-xl mb-6">
+    <div className=" flex flex-col justify-center px-20">
+      <div
+        className="h-48 bg-customColorCard px-3 relative space-y-4 rounded-xl mb-6"
+        style={{ width: '450px' }}
+      >
         <div className="flex space-x-2.5 justify-start items-center py-4">
           <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
           <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
@@ -59,7 +62,7 @@ export default function Graficos() {
         </div>
       </div>
       <div className="flex space-x-6 w-full">
-        <div className="w-full h-40 bg-customColorCard px-3 relative rounded-xl">
+        <div className="w-50 h-40 bg-customColorCard px-3 relative rounded-xl">
           <div className="flex space-x-2.5 justify-start items-center py-3">
             <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
             <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
@@ -69,39 +72,39 @@ export default function Graficos() {
           <div className="flex space-x-2.5 justify-start items-end pl-4">
             <div
               className=" bg-customColorBlue rounded-full h-6 hover:bg-cyan-400"
-              style={{ width: '6%' }}
+              style={{ width: '10px' }}
             ></div>
             <div
               className=" bg-customColorBlue rounded-full h-4 hover:bg-cyan-400"
-              style={{ width: '6%' }}
+              style={{ width: '10px' }}
             ></div>
             <div
               className=" bg-customColorBlue rounded-full h-16 hover:bg-cyan-400"
-              style={{ width: '6%' }}
+              style={{ width: '10px' }}
             ></div>
             <div
               className=" bg-customColorBlue rounded-full h-12 hover:bg-cyan-400"
-              style={{ width: '6%' }}
+              style={{ width: '10px' }}
             ></div>
             <div
               className=" bg-customColorGray rounded-full h-24 hover:bg-gray-300"
-              style={{ width: '6%' }}
+              style={{ width: '10px' }}
             ></div>
             <div
               className=" bg-customColorBlue rounded-full h-16 hover:bg-cyan-400"
-              style={{ width: '6%' }}
+              style={{ width: '10px' }}
             ></div>
             <div
               className=" bg-customColorBlue rounded-full h-20 hover:bg-cyan-400"
-              style={{ width: '6%' }}
+              style={{ width: '10px' }}
             ></div>
             <div
               className=" bg-customColorBlue rounded-full h-9 hover:bg-cyan-400"
-              style={{ width: '6%' }}
+              style={{ width: '10px' }}
             ></div>
           </div>
         </div>
-        <div className="w-full h-40 bg-customColorCard px-3 relative rounded-xl">
+        <div className="w-60 h-40 bg-customColorCard px-3 relative rounded-xl">
           <div className="flex space-x-2.5 justify-start items-center py-3">
             <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
             <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
