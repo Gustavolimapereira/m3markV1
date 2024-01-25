@@ -11,7 +11,7 @@ function PizzaGrafico() {
         label: 'Poll',
         data: [2, 2, 2],
         backgroundColor: ['#69E6A6', '#0A2640', '#0DBBFC'],
-        borderWidth: [''],
+        borderWidth: [0],
       },
     ],
   }

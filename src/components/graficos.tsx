@@ -2,7 +2,7 @@ import PizzaGrafico from './pizzaGrafico'
 
 export default function Graficos() {
   return (
-    <div className=" flex flex-col justify-center px-20">
+    <div className=" flex flex-col justify-center px-20 pt-8">
       <div
         className="h-48 bg-customColorCard px-3 relative space-y-4 rounded-xl mb-6"
         style={{ width: '450px' }}
