@@ -158,13 +158,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div
-          style={{
-            height: '300px',
-            width: '300px',
-          }}
-        ></div>
+      </div>
+      <div className="px-32 pb-10 bg-red-500">
+        <div className="bg-green-500 h-96 w-96 relative">
+          <div className="bg-red-300 h-2/3 w-2/3 absolute z-index-negative"></div>
+          <div className="bg-blue-300 h-2/3 w-2/3 absolute z-index-positive bottom-0 right-0"></div>
+        </div>
       </div>
     </>
   )
