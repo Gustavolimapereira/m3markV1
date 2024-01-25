@@ -70,7 +70,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="grid grid-rows-2 ">
+            <div className="grid grid-rows-2">
               <Graficos></Graficos>
             </div>
           </div>
@@ -85,65 +85,76 @@ export default function Home() {
             Tudo o que sua empresa precisa para se destacar
           </h1>
         </div>
-        <div className="flex pt-12 justify-center">
+        <div className="flex pt-12 justify-center ">
           <div className="grid grid-cols-3 h-auto w-screen max-w-6xl gap-28">
             <div>
-              <Image
-                src="/Gestão.svg"
-                width={240}
-                height={50}
-                alt="Imagem Gestão"
-                className="h-80 w-60 object-cover rounded-3xl mb-6"
-              />
-
-              <p className="text-xl mb-4">Gestão de Tráfego</p>
-              <p className="max-w-60 text-gray-500 mb-4">
-                Tudo para o melhor desempenho e captação de leads para sua
-                empresa
-              </p>
-              <a className="font-bold" href="">
-                Saiba mais
-                <span className="ml-2">&#8594;</span>
-              </a>
-              <div className="mt-2 border-b border-black w-32"></div>
+              <div className="flex justify-center">
+                <Image
+                  src="/Gestão.svg"
+                  width={240}
+                  height={50}
+                  alt="Imagem Gestão"
+                  className="h-80 w-60 object-cover rounded-3xl mb-6"
+                />
+              </div>
+              <div className=" pl-10">
+                <p className="text-xl mb-4">Gestão de Tráfego</p>
+                <p className="max-w-60 text-gray-500 mb-4">
+                  Tudo para o melhor desempenho e captação de leads para sua
+                  empresa
+                </p>
+                <a className="font-bold" href="">
+                  Saiba mais
+                  <span className="ml-2">&#8594;</span>
+                </a>
+                <div className="mt-2 border-b border-black w-32"></div>
+              </div>
             </div>
 
             <div>
-              <Image
-                src="/Audiovisual.svg"
-                width={240}
-                height={50}
-                alt="Imagem Audiovisual"
-                className="h-80 w-60 object-cover rounded-3xl mb-6"
-              />
-              <p className="text-xl mb-4">Produção Audiovisual</p>
-              <p className="max-w-60 text-gray-500 mb-4">
-                Elaboração de vídeos para aproximação B2C e B2B
-              </p>
-              <a className="font-bold" href="">
-                Saiba mais
-                <span className="ml-2">&#8594;</span>
-              </a>
-              <div className="mt-2 border-b border-black w-32"></div>
+              <div className="flex justify-center">
+                <Image
+                  src="/Audiovisual.svg"
+                  width={240}
+                  height={50}
+                  alt="Imagem Audiovisual"
+                  className="h-80 w-60 object-cover rounded-3xl mb-6"
+                />
+              </div>
+              <div className="pl-10">
+                <p className="text-xl mb-4">Produção Audiovisual</p>
+                <p className="max-w-60 text-gray-500 mb-4">
+                  Elaboração de vídeos para aproximação B2C e B2B
+                </p>
+                <a className="font-bold" href="">
+                  Saiba mais
+                  <span className="ml-2">&#8594;</span>
+                </a>
+                <div className="mt-2 border-b border-black w-32"></div>
+              </div>
             </div>
 
             <div>
-              <Image
-                src="/Designer.svg"
-                width={240}
-                height={50}
-                alt="Imagem Designer"
-                className="h-80 w-60 object-cover rounded-3xl mb-6"
-              />
-              <p className="text-xl mb-4"> Designer Gráfico</p>
-              <p className="max-w-60 text-gray-500 mb-4">
-                As melhores artes para publicidade empresarial.
-              </p>
-              <a className="font-bold" href="">
-                Saiba mais
-                <span className="ml-4">&#8594;</span>
-              </a>
-              <div className="mt-2 border-b border-black w-32"></div>
+              <div className="flex justify-center">
+                <Image
+                  src="/Designer.svg"
+                  width={240}
+                  height={50}
+                  alt="Imagem Designer"
+                  className="h-80 w-60 object-cover rounded-3xl mb-6"
+                />
+              </div>
+              <div className="pl-10">
+                <p className="text-xl mb-4"> Designer Gráfico</p>
+                <p className="max-w-60 text-gray-500 mb-4">
+                  As melhores artes para publicidade empresarial.
+                </p>
+                <a className="font-bold" href="">
+                  Saiba mais
+                  <span className="ml-4">&#8594;</span>
+                </a>
+                <div className="mt-2 border-b border-black w-32"></div>
+              </div>
             </div>
           </div>
         </div>
