@@ -2,8 +2,8 @@ import PizzaGrafico from './pizzaGrafico'
 
 export default function Graficos() {
   return (
-    <div className=" w-full h-full flex flex-col justify-center items-center">
-      <div className="w-96 h-48 bg-customColorCard px-3 relative space-y-4 rounded-xl mb-6">
+    <div className=" w-full flex flex-col justify-center items-center  px-20">
+      <div className="w-full h-48 bg-customColorCard px-3 relative space-y-4 rounded-xl mb-6">
         <div className="flex space-x-2.5 justify-start items-center py-4">
           <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
           <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
@@ -58,8 +58,8 @@ export default function Graficos() {
           <p className="text-white text-xs">75%</p>
         </div>
       </div>
-      <div className="flex space-x-6">
-        <div className="w-48 h-40 bg-customColorCard px-3 relative rounded-xl">
+      <div className="flex space-x-6 w-full">
+        <div className="w-full h-40 bg-customColorCard px-3 relative rounded-xl">
           <div className="flex space-x-2.5 justify-start items-center py-3">
             <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
             <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
@@ -101,7 +101,7 @@ export default function Graficos() {
             ></div>
           </div>
         </div>
-        <div className="w-60 h-40 bg-customColorCard px-3 relative rounded-xl">
+        <div className="w-full h-40 bg-customColorCard px-3 relative rounded-xl">
           <div className="flex space-x-2.5 justify-start items-center py-3">
             <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
             <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>

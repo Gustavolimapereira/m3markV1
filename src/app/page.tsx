@@ -70,7 +70,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="grid grid-rows-2">
+            <div className="grid grid-rows-2 ">
               <Graficos></Graficos>
             </div>
           </div>
