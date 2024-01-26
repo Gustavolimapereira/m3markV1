@@ -62,56 +62,62 @@ export default function Graficos() {
         </div>
       </div>
       <div className="flex space-x-6 w-full">
-        <div className="w-50 h-40 bg-customColorCard px-3 relative rounded-xl">
+        <div className="w-50 h-50 bg-customColorCard px-3 relative rounded-xl">
           <div className="flex space-x-2.5 justify-start items-center py-3">
             <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
             <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
             <div className=" bg-customColorDarkGreen rounded-full h-2.5 w-2.5 hover:bg-green-500"></div>
           </div>
-
-          <div className="flex space-x-2.5 justify-start items-end pl-4">
+          <div className="flex">
             <div
-              className=" bg-customColorBlue rounded-full h-6 hover:bg-cyan-400"
-              style={{ width: '10px' }}
-            ></div>
-            <div
-              className=" bg-customColorBlue rounded-full h-4 hover:bg-cyan-400"
-              style={{ width: '10px' }}
-            ></div>
-            <div
-              className=" bg-customColorBlue rounded-full h-16 hover:bg-cyan-400"
-              style={{ width: '10px' }}
-            ></div>
-            <div
-              className=" bg-customColorBlue rounded-full h-12 hover:bg-cyan-400"
-              style={{ width: '10px' }}
-            ></div>
-            <div
-              className=" bg-customColorGray rounded-full h-24 hover:bg-gray-300"
-              style={{ width: '10px' }}
-            ></div>
-            <div
-              className=" bg-customColorBlue rounded-full h-16 hover:bg-cyan-400"
-              style={{ width: '10px' }}
-            ></div>
-            <div
-              className=" bg-customColorBlue rounded-full h-20 hover:bg-cyan-400"
-              style={{ width: '10px' }}
-            ></div>
-            <div
-              className=" bg-customColorBlue rounded-full h-9 hover:bg-cyan-400"
-              style={{ width: '10px' }}
-            ></div>
+              className="flex space-x-2 justify-start pl-3"
+              style={{ marginTop: '95px' }}
+            >
+              <div
+                className=" bg-customColorBlue rounded-full h-6 hover:bg-cyan-400"
+                style={{ width: '10px' }}
+              ></div>
+              <div
+                className=" bg-customColorBlue rounded-full h-4 hover:bg-cyan-400"
+                style={{ width: '10px' }}
+              ></div>
+            </div>
+            <div className="flex space-x-2 justify-start items-end pl-2.5 pr-3 mb-10">
+              <div
+                className=" bg-customColorBlue rounded-full h-16 hover:bg-cyan-400"
+                style={{ width: '10px' }}
+              ></div>
+              <div
+                className=" bg-customColorBlue rounded-full h-10 hover:bg-cyan-400"
+                style={{ width: '10px' }}
+              ></div>
+              <div
+                className=" bg-customColorGray rounded-full h-24 hover:bg-gray-300"
+                style={{ width: '10px' }}
+              ></div>
+              <div
+                className=" bg-customColorBlue rounded-full h-14 hover:bg-cyan-400"
+                style={{ width: '10px' }}
+              ></div>
+              <div
+                className=" bg-customColorBlue rounded-full h-20 hover:bg-cyan-400"
+                style={{ width: '10px' }}
+              ></div>
+              <div
+                className=" bg-customColorBlue rounded-full h-10 hover:bg-cyan-400"
+                style={{ width: '10px' }}
+              ></div>
+            </div>
           </div>
         </div>
-        <div className="w-60 h-40 bg-customColorCard px-3 relative rounded-xl">
+        <div className="w-60 h-50 bg-customColorCard px-3 relative rounded-xl">
           <div className="flex space-x-2.5 justify-start items-center py-3">
             <div className=" bg-customColorRed rounded-full h-2.5 w-2.5 hover:bg-red-500"></div>
             <div className=" bg-customColorYellow rounded-full h-2.5 w-2.5 hover:bg-yellow-400"></div>
             <div className=" bg-customColorDarkGreen rounded-full h-2.5 w-2.5 hover:bg-green-500"></div>
           </div>
 
-          <div className="flex space-x-4 items-center">
+          <div className="flex space-x-4 items-center pt-2">
             <div className="w-28 h-28">
               <PizzaGrafico></PizzaGrafico>
             </div>
