@@ -151,8 +151,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-32 pb-10 bg-red-500">
-        <div className="grid grid-cols-2 bg-violet-600">
+      <div className="px-32 pb-10 ">
+        <div className="grid grid-cols-2 ">
           <div className="flex justify-center items-center">
             <div
               className="relative"
@@ -172,8 +172,28 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className=" m-10">
+            <h1 className="text-4xl text-left max-w-2xl font-roboto pb-14">
+              Alavanque seu negocio e faça sua sempresa ser reconhecida
+            </h1>
+            <p className="text-lg pb-5">
+              Conquiste as melhores avaliações no Google
+            </p>
+            <p className="text-lg pb-5">
+              Aumento de engajamento nas redes socias
+            </p>
+            <p className="text- pb-16">Melhores resultados nas vendas</p>
 
-          <div className="bg-yellow-400"></div>
+            <button
+              type="button"
+              className="text-white bg-customColor hover:bg-green-500
+                focus:ring-4 font-bold
+                rounded-full py-4 px-8
+                  focus:outline-none "
+            >
+              Comece agora!
+            </button>
+          </div>
         </div>
       </div>
     </>
