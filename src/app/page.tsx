@@ -154,14 +154,17 @@ export default function Home() {
       <div className="px-32 pb-10 bg-red-500">
         <div className="grid grid-cols-2 bg-violet-600">
           <div className="flex justify-center items-center">
-            <div className="w-96 relative" style={{ height: '400px' }}>
+            <div
+              className="relative"
+              style={{ height: '500px', width: '450px' }}
+            >
               <div className="absolute z-index-negative">
                 <Image
                   src="/atendente1.jpg"
                   width={1000}
                   height={667}
                   alt="Imagem Designer"
-                  className="h-80 w-80 object-cover rounded-3xl mb-6"
+                  className="h-96 w-96 object-cover rounded-3xl mb-6"
                 />
               </div>
               <div className="absolute z-index-positive bottom-0 right-0 shadow-2xl">
