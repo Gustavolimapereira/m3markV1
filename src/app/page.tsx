@@ -168,7 +168,7 @@ export default function Home() {
                   className="h-96 w-96 object-cover rounded-3xl mb-6"
                 />
               </div>
-              <div className="rounded-lg absolute z-index-positive bottom-0 right-0 shadow-2xl">
+              <div className="rounded-xl absolute z-index-positive bottom-0 right-0 shadow-2xl">
                 <Grafico2></Grafico2>
               </div>
             </div>
@@ -201,7 +201,7 @@ export default function Home() {
 
             <button
               type="button"
-              className="text-white bg-customColor hover:bg-green-500
+              className="text-white bg-customColor hover:bg-customColorBlue
                 focus:ring-4 font-bold
                 rounded-full py-4 px-8
                   focus:outline-none "
