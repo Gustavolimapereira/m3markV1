@@ -161,8 +161,8 @@ export default function Home() {
               <div className="absolute z-index-negative">
                 <Image
                   src="/atendente1.jpg"
-                  width={1000}
-                  height={667}
+                  width={1885}
+                  height={1257}
                   alt="Imagem Designer"
                   className="h-96 w-96 object-cover rounded-3xl mb-6"
                 />
