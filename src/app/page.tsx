@@ -17,22 +17,13 @@ export default function Home() {
               />
             </div>
             <div className="flex justify-center items-center space-x-20">
-              <a
-                className="text-white font-bold hover:text-CustomColorOrange"
-                href=""
-              >
+              <a className="text-white hover:text-CustomColorOrange" href="">
                 Serviços
               </a>
-              <a
-                className="text-white font-bold hover:text-CustomColorOrange"
-                href=""
-              >
+              <a className="text-white hover:text-CustomColorOrange" href="">
                 Quem Somos
               </a>
-              <a
-                className="text-white font-bold hover:text-CustomColorOrange"
-                href=""
-              >
+              <a className="text-white hover:text-CustomColorOrange" href="">
                 Entre em Contato
               </a>
             </div>
