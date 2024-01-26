@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Graficos from '../components/graficos'
 import Grafico2 from '@/components/grafico2'
+import { BsCheckCircleFill } from 'react-icons/bs'
 
 export default function Home() {
   return (
@@ -176,13 +177,27 @@ export default function Home() {
             <h1 className="text-4xl text-left max-w-2xl font-roboto pb-14">
               Alavanque seu negocio e faça sua sempresa ser reconhecida
             </h1>
-            <p className="text-lg pb-5">
-              Conquiste as melhores avaliações no Google
-            </p>
-            <p className="text-lg pb-5">
-              Aumento de engajamento nas redes socias
-            </p>
-            <p className="text- pb-16">Melhores resultados nas vendas</p>
+
+            <div className="flex">
+              <BsCheckCircleFill className="mr-2 text-3xl" />
+              <p className="text-lg pb-5 pl-5">
+                Conquiste as melhores avaliações no Google
+              </p>
+            </div>
+
+            <div className="flex">
+              <BsCheckCircleFill className="mr-2 text-3xl" />
+              <p className="text-lg pb-5 pl-5">
+                Aumento de engajamento nas redes socias
+              </p>
+            </div>
+
+            <div className="flex">
+              <BsCheckCircleFill className="mr-2 text-3xl" />
+              <p className="text-lg pb-16 pl-5">
+                Melhores resultados nas vendas
+              </p>
+            </div>
 
             <button
               type="button"
