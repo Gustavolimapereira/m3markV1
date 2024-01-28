@@ -1,7 +1,12 @@
 import Image from 'next/image'
 import Graficos from '../components/graficos'
 import Grafico2 from '@/components/grafico2'
-import { BsCheckCircleFill } from 'react-icons/bs'
+import {
+  BsChatSquareHeart,
+  BsCheckCircleFill,
+  BsEye,
+  BsLightningCharge,
+} from 'react-icons/bs'
 
 export default function Home() {
   return (
@@ -152,7 +157,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-32 pb-10 ">
+      <div className="px-32 pb-24 ">
         <div className="grid grid-cols-2 ">
           <div className="flex justify-center items-center">
             <div
@@ -208,6 +213,53 @@ export default function Home() {
             >
               Comece agora!
             </button>
+          </div>
+        </div>
+      </div>
+      <div className="px-32 pb-10 ">
+        <div className="grid grid-cols-2 ">
+          <div className=" m-10">
+            <h1 className="text-4xl text-left max-w-2xl font-roboto pb-14">
+              Tenha padronização de marca para que seu cliente saiba quem é você
+            </h1>
+
+            <div className="flex bg-customColor justify-start rounded-md items-center mb-5 pl-10">
+              <BsChatSquareHeart
+                className="mr-2 text-2xl"
+                style={{ color: 'white' }}
+              />
+              <p className="text-lg p-4 text-white text-center">
+                Mostre ao seu cliente o que há de melhor
+              </p>
+            </div>
+
+            <div className="flex bg-white justify-start rounded-md items-center mb-5 pl-10 shadow-lg">
+              <BsEye className="mr-2 text-2xl" style={{ color: 'black' }} />
+
+              <p className="text-lg p-4 text-black text-center">
+                Tenha mais visibilidade da sua marca
+              </p>
+            </div>
+
+            <div className="flex bg-white justify-start rounded-md items-center pl-10 shadow-lg">
+              <BsLightningCharge
+                className="mr-2 text-2xl"
+                style={{ color: 'black' }}
+              />
+
+              <p className="text-lg p-4 text-black text-center">
+                Esteja na frente do seu concorrente
+              </p>
+            </div>
+          </div>
+          <div className="m-5">
+            <Image
+              src="/atendente2.jpg "
+              width={1885}
+              height={1257}
+              alt="Imagem Designer"
+              className="rounded-3xl"
+            />
           </div>
         </div>
       </div>
