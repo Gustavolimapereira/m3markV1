@@ -157,109 +157,114 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-32 pb-24 ">
-        <div className="grid grid-cols-2 ">
-          <div className="flex justify-center items-center">
-            <div
-              className="relative"
-              style={{ height: '500px', width: '450px' }}
-            >
-              <div className="absolute z-index-negative">
-                <Image
-                  src="/atendente1.jpg"
-                  width={1885}
-                  height={1257}
-                  alt="Imagem Designer"
-                  className="h-96 w-96 object-cover rounded-3xl mb-6"
-                />
+      <div className="justify-center items-center">
+        <div className="px-32 pb-24">
+          <div className="grid grid-cols-2">
+            <div className="flex justify-center items-center">
+              <div
+                className="relative"
+                style={{ height: '500px', width: '450px' }}
+              >
+                <div className="absolute z-index-negative">
+                  <Image
+                    src="/atendente1.jpg"
+                    width={1885}
+                    height={1257}
+                    alt="Imagem Designer"
+                    className="h-96 w-96 object-cover rounded-3xl mb-6"
+                  />
+                </div>
+                <div className="rounded-xl absolute z-index-positive bottom-0 right-0 shadow-2xl">
+                  <Grafico2></Grafico2>
+                </div>
               </div>
-              <div className="rounded-xl absolute z-index-positive bottom-0 right-0 shadow-2xl">
-                <Grafico2></Grafico2>
+            </div>
+            <div className=" m-10">
+              <h1 className="text-4xl text-left max-w-2xl font-roboto pb-14 leading-relaxed">
+                Alavanque seu negocio e faça sua sempresa ser reconhecida
+              </h1>
+
+              <div className="flex">
+                <BsCheckCircleFill className="mr-2 text-3xl" />
+                <p className="text-lg pb-7 pl-5">
+                  Conquiste as melhores avaliações no Google
+                </p>
               </div>
-            </div>
-          </div>
-          <div className=" m-10">
-            <h1 className="text-4xl text-left max-w-2xl font-roboto pb-14">
-              Alavanque seu negocio e faça sua sempresa ser reconhecida
-            </h1>
 
-            <div className="flex">
-              <BsCheckCircleFill className="mr-2 text-3xl" />
-              <p className="text-lg pb-5 pl-5">
-                Conquiste as melhores avaliações no Google
-              </p>
-            </div>
+              <div className="flex">
+                <BsCheckCircleFill className="mr-2 text-3xl" />
+                <p className="text-lg pb-7 pl-5">
+                  Aumento de engajamento nas redes socias
+                </p>
+              </div>
 
-            <div className="flex">
-              <BsCheckCircleFill className="mr-2 text-3xl" />
-              <p className="text-lg pb-5 pl-5">
-                Aumento de engajamento nas redes socias
-              </p>
-            </div>
+              <div className="flex">
+                <BsCheckCircleFill className="mr-2 text-3xl" />
+                <p className="text-lg pb-16 pl-5">
+                  Melhores resultados nas vendas
+                </p>
+              </div>
 
-            <div className="flex">
-              <BsCheckCircleFill className="mr-2 text-3xl" />
-              <p className="text-lg pb-16 pl-5">
-                Melhores resultados nas vendas
-              </p>
-            </div>
-
-            <button
-              type="button"
-              className="text-white bg-customColor hover:bg-customColorBlue
+              <button
+                type="button"
+                className="text-white bg-customColor hover:bg-customColorBlue
                 focus:ring-4 font-bold
                 rounded-full py-4 px-8
                   focus:outline-none "
-            >
-              Comece agora!
-            </button>
+              >
+                Comece agora!
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="px-32 pb-10 ">
-        <div className="grid grid-cols-2 ">
-          <div className=" m-10">
-            <h1 className="text-4xl text-left max-w-2xl font-roboto pb-14">
-              Tenha padronização de marca para que seu cliente saiba quem é você
-            </h1>
+        <div className="px-32 pb-10 ">
+          <div className="grid grid-cols-2 justify-center items-center">
+            <div className="flex flex-col m-10 items-center">
+              <h1 className="text-4xl max-w-lg font-roboto pb-14 pl-6 leading-relaxed">
+                Tenha padronização de marca para que seu cliente saiba quem é
+                você
+              </h1>
 
-            <div className="flex bg-customColor justify-start rounded-md items-center mb-5 pl-10">
-              <BsChatSquareHeart
-                className="mr-2 text-2xl"
-                style={{ color: 'white' }}
+              <div className="" style={{ width: '465px' }}>
+                <div className="flex max-w-md bg-customColor justify-start rounded-md items-center mb-5 pl-6 shadow-lg">
+                  <BsChatSquareHeart
+                    className="mr-2 ml-0 text-2xl"
+                    style={{ color: 'white' }}
+                  />
+                  <p className="text-base p-4 text-white text-center">
+                    Mostre ao seu cliente o que há de melhor
+                  </p>
+                </div>
+
+                <div className="flex max-w-md bg-white justify-start rounded-md items-center mb-5 pl-6 shadow-lg">
+                  <BsEye className="mr-2 text-2xl" style={{ color: 'black' }} />
+
+                  <p className="text-base p-4 text-black text-center">
+                    Tenha mais visibilidade da sua marca
+                  </p>
+                </div>
+
+                <div className="flex max-w-md bg-white justify-start rounded-md items-center pl-6 shadow-lg">
+                  <BsLightningCharge
+                    className="mr-2 text-2xl"
+                    style={{ color: 'black' }}
+                  />
+
+                  <p className="text-base p-4 text-black text-center">
+                    Esteja na frente do seu concorrente
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="m-5" style={{ width: '444px', height: '523px' }}>
+              <Image
+                src="/atendente2.jpg "
+                width={1257}
+                height={1885}
+                alt="Imagem Designer"
+                className="h-full w-full object-cover rounded-3xl mb-6"
               />
-              <p className="text-lg p-4 text-white text-center">
-                Mostre ao seu cliente o que há de melhor
-              </p>
             </div>
-
-            <div className="flex bg-white justify-start rounded-md items-center mb-5 pl-10 shadow-lg">
-              <BsEye className="mr-2 text-2xl" style={{ color: 'black' }} />
-
-              <p className="text-lg p-4 text-black text-center">
-                Tenha mais visibilidade da sua marca
-              </p>
-            </div>
-
-            <div className="flex bg-white justify-start rounded-md items-center pl-10 shadow-lg">
-              <BsLightningCharge
-                className="mr-2 text-2xl"
-                style={{ color: 'black' }}
-              />
-
-              <p className="text-lg p-4 text-black text-center">
-                Esteja na frente do seu concorrente
-              </p>
-            </div>
-          </div>
-          <div className="m-5">
-            <Image
-              src="/atendente2.jpg "
-              width={1885}
-              height={1257}
-              alt="Imagem Designer"
-              className="rounded-3xl"
-            />
           </div>
         </div>
       </div>
