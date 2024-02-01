@@ -39,7 +39,7 @@ export default function Home() {
           <div className="grid grid-cols-2">
             <div className="h-auto space-y-10 p-16">
               <h1 className="text-5xl font-bold tracking-tight text-white max-w-xl">
-                Teste
+                Aumente a performance da sua empresa
               </h1>
               <p className="text-white max-w-xl">
                 Soluções empresariais para aumento de resultado nas redes
